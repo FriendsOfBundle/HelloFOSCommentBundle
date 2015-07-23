@@ -1,0 +1,32 @@
+{
+    "name": "friendsofbundle/comment-bundle",
+    "type": "symfony-bundle",
+    "description": "Hello Symfony2 FOSComment Bundle",
+    "keywords": ["comment", "threads", "forum"],
+    "homepage": "http://hoangthienan.github.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoang Thien An",
+            "homepage": "https://hoangthienan.com"
+        },
+        {
+            "name": "FriendsOfBundle Community",
+            "homepage": "https://github.com/friendsofbundle/HelloFOSCommentBundle/contributors"
+        }
+    ],
+    "require": {
+        "friendsofsymfony/comment-bundle": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "FOB\\HelloCommentBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.1-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
